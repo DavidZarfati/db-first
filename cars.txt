@@ -1,19 +1,19 @@
 Macchine Usate
 
 id - unsigned int - PRIMARY-KEY (UNIQUE,NOT NULL)
-codice_telaio - PRIMARY-KEY (UNIQUE,NOT NULL)(l'identificatore è di due colonne[slide 21])
-venditore - 
-prezzo_eur -
-prezzo_trattabile -
-descrizione -
-created_at -
-marca - 
-modello -
-chilometraggio -
-motore -
-cambio -
-posti -
-optional_inclusi -
-storico incidenti -
-revisioni_fatte -
-emissioni_euro -
+codice_telaio - VARCHAR(255) - PRIMARY-KEY (UNIQUE,NOT NULL)(l'identificatore è di due colonne[slide 21])
+venditore - VARCHAR(255) - NULL
+prezzo_eur - DECIMAL(8,2) - NOT NULL
+prezzo_trattabile -DECIMAL(8,2) - NULL
+descrizione - TEXT - NULL
+created_at - TIMESTAMP - NOT NULL
+marca - VARCHAR(255) - NOT NULL
+modello - VARCHAR(255) - NOT NULL
+chilometraggio - VARCHAR(255) - NOT NULL
+motore - VARCHAR(255) - NOT NULL
+cambio - VARCHAR(255) - - NOT NULL
+posti - UNSISGNED TINYINT - NULL
+optional_inclusi - VARCHAR(255) - NULL
+storico incidenti - TEXT - NULL
+revisioni_fatte - VARCHAR(255) - NULL
+emissioni_euro - VARCHAR(255) - NULL
