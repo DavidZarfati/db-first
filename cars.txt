@@ -1,0 +1,19 @@
+Macchine Usate
+
+id - unsigned int - PRIMARY-KEY (UNIQUE,NOT NULL)
+codice_telaio - PRIMARY-KEY (UNIQUE,NOT NULL)(l'identificatore è di due colonne[slide 21])
+venditore - 
+prezzo_eur -
+prezzo_trattabile -
+descrizione -
+created_at -
+marca - 
+modello -
+chilometraggio -
+motore -
+cambio -
+posti -
+optional_inclusi -
+storico incidenti -
+revisioni_fatte -
+emissioni_euro -
